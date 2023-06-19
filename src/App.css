@@ -1,52 +1,13 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-} */
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Tilt+Prism&display=swap');
-*{
+.CodeWriteWebSite{
+  background-color: black;
+}
+.body{
   background-image: url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==&auto=format&fit=crop&w=1147&q=80");
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 .Menu{
   /* color: white; */
@@ -79,10 +40,8 @@
   margin-top:5rem;
 }
 .SidebarCreate_anonButton-NtSrZ {
-  margin: 0 auto;
+  margin: 0 -13rem;
   width: calc(30% - 2.75rem); 
-  text-align: center;
-  padding: 0.875rem 0;
   border-radius: 6px;
   box-sizing: border-box;
   color: var(--cp-color-1);
@@ -90,20 +49,27 @@
   display: block;
   z-index: 2;
   overflow: hidden;
-  padding: 3px;
+  padding: 0.3rem;
   content: "";
     position: absolute;
     text-align: center;
     align-items: center;
    line-height: 2rem;
    text-size-adjust:inherit;
-    background: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
-   
+    /* border-image: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b); */
+   border-width: 0.25rem; 
+  
+   border-image:linear-gradient(to right, rgb(228, 228, 26), rgb(202, 117, 187),rgb(103, 75, 169),rgb(16, 9, 194))1;
+   border-style: solid;
     animation:0.75s linear infinite;
+    
   }
 a:hover, a:focus {
   cursor: pointer;
 
+}
+button:active{
+  transform:translate(0,0.3rem);
 }
 
 /* .personal{
