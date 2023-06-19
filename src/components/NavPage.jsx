@@ -6,9 +6,6 @@ function navbar() {
 <div className='land'>
       <div className='Menu'>
         <h className='head'> CodeWrite</h>
-
-
-        <navbar />
         <div className="Left1">
           <p className='text-4xl text-cyan-300'>Create,code with HTML,CSS and Javascript</p>
           <p className='text-3xl text-cyan-500'> Let our code do the magic.</p>
@@ -18,12 +15,12 @@ function navbar() {
         <a href="/CodeHome">
           <button class="SidebarCreate_anonButton-NtSrZ"><span><pre>Start Coding...</pre></span></button>
          </a>
-         <button
+         {/* <button
   type="button"
-  class="inline-block rounded-full border-2 border-info px-10 pb-[10px] text-xl font-medium uppercase leading-normal text-info transition duration-150 ease-in-out hover:border-image-linear-gradient(to right, rgb(228, 228, 26), rgb(202, 117, 187),rgb(103, 75, 169),rgb(16, 9, 194))1 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-info-600 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-100 active:text-neutral-100 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
+  class="inline-block rounded-full border-2 border-info px-10 pb-[10px] text-slate-50 text-xl font-medium uppercase leading-normal text-info transition duration-150 ease-in-out hover:border-image-linear-gradient(to right, rgb(228, 228, 26), rgb(202, 117, 187),rgb(103, 75, 169),rgb(16, 9, 194))1 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-info-600 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-100 active:text-neutral-100 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
 >
   Start Coding...
-</button>
+</button> */}
         </div>
         {/* <p class="text-zinc-300 "><pre>Frameworks</pre></p> */}
 
