@@ -1,7 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Tilt+Prism&display=swap');
-.body{
+html,body,#root{
+  height: 100%;
+  width:100%;
+}
+.land{
   background-image: url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==&auto=format&fit=crop&w=1147&q=80");
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,7 +40,7 @@
   align-items: center;
   margin-top:5rem;
 }
-.SidebarCreate_anonButton-NtSrZ {
+.Buttonin {
   margin: 0 -13rem;
   width: calc(30% - 2.75rem); 
   border-radius: 6px;
@@ -76,3 +80,6 @@ button:active{
   flex-direction: row;
   justify-content: space-between;
 } */
+.Codepage{
+  background-color: white;
+}

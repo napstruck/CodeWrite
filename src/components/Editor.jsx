@@ -1,13 +1,29 @@
 
 import { Box ,styled} from "@mui/material";
+import CloseFullscreenIcon from '@mui/icons-material/CloseFullscreen';
+import { Controlled as ControlledEditor } from "react-codemirror2";
+import 'codemirror/lib/codemirror.css';
+import 'codemirror/theme/material.css';
+import 'codemirror/mode/xml/xml';
+import'codemirror/mode/javascript/javascript';
+import'codemirror/mode/css/css';
 
 const SubHead=styled(Box)`
-background:#1d1e22
+background:#1d1e22;
+padding: 10px 12px;
+    display: flex
+`
+const Heading=styled( Box)`
+background:#1d1e22;
+display:flex;
+justify-content:space-between;
+color:white;
+font-weight:700
 `
 const Editor=()=>{
     return (
       <Box>
-        <Box>
+        <Heading>
             <SubHead>
                 <Box component="span"
                 style={{
@@ -16,15 +32,16 @@ const Editor=()=>{
                     widht:20,
                     display:'flex',
                     placeContent:'center',
-                    marginRight:5,
+                    marginRight:10,
                     borderRadius:5,
-                    paddingBottom:2
+                    paddingBottom:5
                 }}>/</Box>HTML
             </SubHead>
-        </Box>
+            {/* used as a component here although its a icon hence self closing tag */}
+          <  CloseFullscreenIcon />
+        </Heading>
 
-        <Box>
-        </Box>
+        <ControlledEditor />
       </Box>
     )
 }

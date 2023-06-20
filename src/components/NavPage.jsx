@@ -13,7 +13,7 @@ function navbar() {
         </div>
         <div className='button1'>
         <a href="/CodeHome">
-          <button class="SidebarCreate_anonButton-NtSrZ"><span><pre>Start Coding...</pre></span></button>
+          <button class="Buttonin"><span><pre>Start Coding...</pre></span></button>
          </a>
          {/* <button
   type="button"
