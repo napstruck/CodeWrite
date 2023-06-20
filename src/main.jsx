@@ -22,7 +22,8 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>,
+  // <React.StrictMode>
+   
+  // </React.StrictMode>, this is used to render react component twice so removing this will remove the duplicate element.
+   <RouterProvider router={router} />
 )
