@@ -1,6 +1,6 @@
 
 import {AppBar,Toolbar,styled} from '@mui/material';
-
+import "../App.css"
 const Container = styled(AppBar)`
          background: #060606;
 
@@ -15,6 +15,7 @@ const Header=()=>{
         <Container>
            <Toolbar>
                <img src={logo} alt="logo" style={{width:60}}/>
+               <h className='head2'> CodeWrite</h>
            </Toolbar>
         </Container>
     )

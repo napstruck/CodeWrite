@@ -1,3 +1,4 @@
+ import { useState } from 'react';
 
 import { Box ,styled} from "@mui/material";
 import CloseFullscreenIcon from '@mui/icons-material/CloseFullscreen';
@@ -15,15 +16,28 @@ padding: 10px 12px;
     display: flex
 `
 const Heading=styled( Box)`
-background:#1d1e22;
+background:#060606;
 display:flex;
 justify-content:space-between;
-color:white;
+color:#AAAEBC;
 font-weight:700
 `
-const Editor=({headingLang,icon,color})=>{
+
+const Container =styled(Box)`
+flex-grow:1;
+flex-basic:0;
+display:flex;
+flex-direction:column;
+padding:0 8px 8px;
+`
+
+const Editor=({headingLang,value,onChange,icon,color})=>{
+const [open,setOpen]=useState(true);
+  const handleChange=(editor,data,value)=>{
+    onChange(value);
+  }
     return (
-      <Box>
+      <Container style={open?null:{flexGrow:0}}>
         <Heading>
             <SubHead>
                 <Box component="span"
@@ -35,19 +49,24 @@ const Editor=({headingLang,icon,color})=>{
                     placeContent:'center',
                     marginRight:10,
                     borderRadius:5,
-                    paddingBottom:5
+                    paddingBottom:5,
+                    color:'#000'
                 }}>{icon}</Box>{headingLang}
             </SubHead>
             {/* used as a component here although its a icon hence self closing tag */}
-          <  CloseFullscreenIcon />
+          <  CloseFullscreenIcon fontSize="small" style={{alignSelf:"center", cursor:"pointer"}} onClick={()=>setOpen(prevState=>!prevState)} />
         </Heading>
 
-        <ControlledEditor className='controlled-editor'
+        <ControlledEditor 
+         onBeforeChange={handleChange}
+        value={value}
+        className='controlled-editor'
+        
                      options={{
                            lineNumbers:true,
                            theme:'material'
                        }}/>
-      </Box>
+      </Container>
     )
 }
 export default Editor;

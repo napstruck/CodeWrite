@@ -9,6 +9,8 @@ html,body,#root{
   background-image: url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==&auto=format&fit=crop&w=1147&q=80");
   background-repeat: no-repeat;
   background-size: cover;
+  height:100%;
+  width:100%;
 }
 .Menu{
   /* color: white; */
@@ -93,4 +95,12 @@ button:active{
 .CodeMirror-scroll{
   background:#1d1e22!important;
 
+}
+.head2{
+  color: white;
+  font-family: 'Tilt Prism', cursive;
+  font-weight: 100;
+  font-size:2rem;
+  padding-left:1rem ;
+ 
 }

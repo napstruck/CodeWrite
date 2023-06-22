@@ -4,19 +4,20 @@
 import './App.css';
 import NavPage from './components/NavPage';
 import CodeHome from './components/CodeHome';
-import Data from './contextcode/Data';
+
+import DataProvider from './contextcode/DataProvider';
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import ReactDOM from "react-dom/client";
 
 
 function App() {
-  // const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0)
 
   return (
     <div className='CodeWriteWebSite'>
-      <Data>
+      <DataProvider>
       <NavPage></NavPage>
-      </Data>
+      </DataProvider>
     
     </div>
     

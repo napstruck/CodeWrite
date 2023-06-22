@@ -1,15 +1,17 @@
 import { createContext,useState } from "react";
 
-const DataContext=createContext();
-const Data=({children})=>{
+export const DataContext=createContext( "");
+
+const DataProvider=({children})=>{
   const[html,setHtml]=useState('');
-  const[css,setCss]=useState('');
   const[js,setJs]=useState('');
+  const[css,setCss]=useState('');
+  
 
 
     return (
         <DataContext.Provider
-        values={{
+        value={{
             html,
             setHtml,
             css,
@@ -23,4 +25,4 @@ const Data=({children})=>{
         </DataContext.Provider>
     )
 }
-export default Data;
+export default DataProvider;
