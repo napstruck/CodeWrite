@@ -15,7 +15,7 @@ const Header=()=>{
         <Container>
            <Toolbar>
                <img src={logo} alt="logo" style={{width:60}}/>
-               <h className='head2'> CodeWrite</h>
+               <div className='head2'> CodeWrite</div>
            </Toolbar>
         </Container>
     )
