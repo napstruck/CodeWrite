@@ -53,13 +53,13 @@ function navbar() {
   );
 }
 
-    </div>
-   </div>
-   </div>
+  //   </div>
+  //  </div>
+  //  </div>
 
  
-);
-    }
+// );
+//     }
 
 
 export default navbar;
