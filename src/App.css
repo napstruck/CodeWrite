@@ -75,13 +75,13 @@ button:active{
   transform:translate(0,0.3rem);
 }
 
-/* .personal{
+.personal{
   color:white;
   font-size: 1.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-} */
+}
 .Codepage{
   background-color: white;
 }
