@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import CodeMirror from 'react-codemirror2';
 import { Box, styled } from "@mui/material";
 import CloseFullscreenIcon from "@mui/icons-material/CloseFullscreen";
 import { Controlled as ControlledEditor } from "react-codemirror2";
@@ -35,7 +35,7 @@ const Editor = ({ headingLang, value, onChange, icon, color, mime }) => {
   const [open, setOpen] = useState(true);
 
   const handleChange = (editor, data, value) => {
-    onChange(value);
+    return onChange(value);
   };
 
   return (

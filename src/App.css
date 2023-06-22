@@ -21,8 +21,6 @@ html,body,#root{
   color: white;
   font-family: 'Tilt Prism', cursive;
   font-weight: 300;
-  font-size:3rem;
-  padding: 2rem 2rem;
  
 }
 .Left1{
@@ -103,4 +101,25 @@ button:active{
   font-size:2rem;
   padding-left:1rem ;
  
+}
+#mob{
+  background-color: black !important;
+}
+#mob2{
+  background-color: black !important;
+  
+}
+.Editpage{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+
+}
+.button3{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 57rem;
 }
