@@ -3,11 +3,12 @@ import CodeHome from "./CodeHome";
 import "../App.css"
 function navbar() {
   return (
+  <>
     <div className='land'>
       <div className='Menu'>
         
-<nav class="bg-black border-gray-200 dark:bg-gray-100">
-  <div class="max-w-screen-l flex flex-wrap items-center justify-between mx-6 p-4">
+<nav class="bg-gradient-to-b from-zinc-600 to-zinc-1000 bg-gradient-to-r">
+  <div class="max-w-screen-l flex flex-wrap items-center bg-opacity-60 justify-between mx-6 p-6 ">
   <div class="flex items-center">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK-qlt1i1iQuAIj8izumaWb4QHQyrPf7PWuHZPQZ_bG_5zaBaa-bD0CWiD05qK3_t90-k&usqp=CAU" class="h-8 mr-3" alt="Flowbite Logo" />
       <div className="head">
@@ -22,8 +23,8 @@ function navbar() {
       
       <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
         <div class="px-4 py-3">
-          <span class="block text-sm text-gray-100 dark:text-white">Bonnie Green</span>
-          <span class="block text-sm  text-gray-100 truncate dark:text-gray-400">name@flowbite.com</span>
+          <span class="block text-sm text-gray-100 dark:text-white">Stuti Pradhan</span>
+          <span class="block text-sm  text-gray-100 truncate dark:text-gray-400">stutipradhan@gmail.com</span>
         </div>
         <ul class="py-2" aria-labelledby="user-menu-button">
           <li>
@@ -47,7 +48,7 @@ function navbar() {
   </div>
   
   <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="mob">
-    <ul class="flex flex-col font-medium p-1 md:p-6 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-20 md:mt-0 md:border-0 md:bg-white bg-gray-100 md:dark:bg-gray-900 dark:border-gray-700" id="mob2">
+    <ul class="flex flex-col font-medium p-1 md:p-6 mt-4 bg-white/0 rounded-lg md:flex-row md:space-x-20 md:mt-0 md:border-0" id="mob2">
       <li>
         <a href="#" class="block py-2 pl-3 pr-4 text-white bg-cyan-100 rounded md:bg-transparent md:text-cyan-400 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
       </li>
@@ -69,35 +70,58 @@ function navbar() {
 </div>
 
 </nav>
+<div class="backdrop-blur-sm">
+  <br></br>
+  <br></br>
+  <br></br>
+
 
         <div className='Left1'>
           <p className='text-4xl text-cyan-300'>
-            Create,code with HTML,CSS and Javascript
+          Experience the Artistry of Code in Action
           </p>
-          <p className='text-3xl text-cyan-500'> Let our code do the magic.</p>
+          <p className='text-3xl text-cyan-500'>Explore, experiment and expand your skills with CodeWrite</p>
           <p className='text-0.5xl text-cyan-700'>
-            Imagine it, believe it and let our code make it happen.
+          Rapid HTML, CSS & JS Prototyping made easy!
           </p>
         </div>
-      
+       
+     
         <div className='button1'>
         <a href="/CodeHome">
-          <div class="inline-block rborder-1 bg-gradient-to-r from-blue-400 via-fuchsia-500 to-teal-500 p-1/8 pb-[1/8px] text-slate-50 text-xl font-medium transition ">
+          <div class="inline-block rounded-xl bg-gradient-to-r from-blue-400 via-fuchsia-500 to-teal-500 p-1/8 pb-[1/8px] text-slate-50 text-xl font-medium transition ">
        
-        <button type="button" class=" bg-black px-20 p-[5px] m-1 border-1 outline:none">  Start Coding...</button>
-</div>
-</a>
-        </div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-          </div>
+        <button type="button" class=" bg-black rounded-xl px-20 p-[5px] m-1 border-1 outline:none">  Start Coding...</button>
       </div>
+
+</a>
+</div>
+</div>
+        </div>
+         <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br> 
+
+       {/* <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>     */}
+     
+      </div>
+      {/* // FrameworkPage */}
+      <div class="FrameworkPage">
+           
+      </div>
+      </>
   );
 }
 

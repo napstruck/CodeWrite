@@ -1,25 +1,31 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Tilt+Prism&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Tilt+Prism&display=swap');
 html,body,#root{
   height: 100%;
   width:100%;
 }
 .land{
-  background-image: url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==&auto=format&fit=crop&w=1147&q=80");
+  /* background-image: url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==&auto=format&fit=crop&w=1147&q=80"); */
+background-image: url("https://images.unsplash.com/photo-1616004655123-818cbd4b3143?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
   background-repeat: no-repeat;
   background-size: cover;
   height:100%;
   width:100%;
+background-blend-mode: lighten;
+padding-bottom: 10rem;
 }
 .Menu{
   /* color: white; */
- 
+   
   font-weight: 300;
 }
 .head{
   color: white;
-  font-family: 'Tilt Prism', cursive;
+  font-family: 'Source Code Pro', monospace;
+/* font-family: 'Tilt Prism', cursive; */
   font-weight: 300;
  
 }
@@ -96,19 +102,14 @@ button:active{
 }
 .head2{
   color: white;
-  font-family: 'Tilt Prism', cursive;
+  font-family: 'Source Code Pro', monospace;
+
   font-weight: 100;
   font-size:2rem;
   padding-left:1rem ;
  
 }
-#mob{
-  background-color: black !important;
-}
-#mob2{
-  background-color: black !important;
-  
-}
+
 .Editpage{
   display: flex;
   flex-direction: row;
@@ -122,4 +123,9 @@ button:active{
   display: flex;
   justify-content: flex-end;
   margin-left: 57rem;
+}
+
+.FrameworkPage{
+  background-image: url("https://images.unsplash.com/photo-1516797045820-6edca89b2830?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+
 }
