@@ -124,8 +124,22 @@ button:active{
   justify-content: flex-end;
   margin-left: 57rem;
 }
-
-.FrameworkPage{
-  background-image: url("https://images.unsplash.com/photo-1516797045820-6edca89b2830?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+.imagehalf1{
+  bottom: auto;
+  top: 290px;
+  width: 650px;
+  right: -125px;
+  max-height:100px;
+  max-width:100px;
+  overflow: hidden;
+}
+#Framework{
+  /* background-image: url("https://images.unsplash.com/photo-1525453719223-4e781eb83a4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"); */
+  background: #2b5876;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #000000, #29373c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #000000, #29373c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }

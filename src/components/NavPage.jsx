@@ -7,7 +7,7 @@ function navbar() {
     <div className='land'>
       <div className='Menu'>
         
-<nav class="bg-gradient-to-b from-zinc-600 to-zinc-1000 bg-gradient-to-r">
+<nav class="bg-gradient-to-b from-zinc-600 to-zinc-1000 bg-gradient-to-b ">
   <div class="max-w-screen-l flex flex-wrap items-center bg-opacity-60 justify-between mx-6 p-6 ">
   <div class="flex items-center">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK-qlt1i1iQuAIj8izumaWb4QHQyrPf7PWuHZPQZ_bG_5zaBaa-bD0CWiD05qK3_t90-k&usqp=CAU" class="h-8 mr-3" alt="Flowbite Logo" />
@@ -106,21 +106,9 @@ function navbar() {
         <br></br>
         <br></br>
         <br></br> 
-
-       {/* <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>     */}
      
       </div>
-      {/* // FrameworkPage */}
-      <div class="FrameworkPage">
-           
-      </div>
+
       </>
   );
 }
