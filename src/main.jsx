@@ -7,6 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import CodeHome from './components/CodeHome.jsx';
+import NavPage from './components/NavPage.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "CodeHome",
     element: <CodeHome/>
+  },
+  {
+    path:"NavPage",
+    element:<NavPage/>
   },
  
 ]);

@@ -1,16 +1,18 @@
 import React from "react";
 import CodeHome from "./CodeHome";
 import "../App.css"
-function navbar() {
+import { Link } from "react-router-dom";
+
+function NavPage() {
   return (
   <>
     <div className='land'>
       <div className='Menu'>
         
-<nav class="bg-gradient-to-b from-zinc-600 to-zinc-1000 bg-gradient-to-b ">
+<nav class="bg-gradient-to-b ">
   <div class="max-w-screen-l flex flex-wrap items-center bg-opacity-60 justify-between mx-6 p-6 ">
   <div class="flex items-center">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK-qlt1i1iQuAIj8izumaWb4QHQyrPf7PWuHZPQZ_bG_5zaBaa-bD0CWiD05qK3_t90-k&usqp=CAU" class="h-8 mr-3" alt="Flowbite Logo" />
+      <img src="/public/codewrite_logo.jpg" class="h-8 mr-3" alt="Flowbite Logo" />
       <div className="head">
       <span class="self-center text-3xl font-semibold whitespace-nowrap text-white">CodeWrite</span>
   </div>
@@ -21,7 +23,7 @@ function navbar() {
         <img class="w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1361&q=80" alt="user photo"></img>
       </button>
       
-      <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
+      <div class="z-50 hidden my-4 text-base list-none bg-white " id="user-dropdown">
         <div class="px-4 py-3">
           <span class="block text-sm text-gray-100 dark:text-white">Stuti Pradhan</span>
           <span class="block text-sm  text-gray-100 truncate dark:text-gray-400">stutipradhan@gmail.com</span>
@@ -50,7 +52,7 @@ function navbar() {
   <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="mob">
     <ul class="flex flex-col font-medium p-1 md:p-6 mt-4 bg-white/0 rounded-lg md:flex-row md:space-x-20 md:mt-0 md:border-0" id="mob2">
       <li>
-        <a href="#" class="block py-2 pl-3 pr-4 text-white bg-cyan-100 rounded md:bg-transparent md:text-cyan-400 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+      <a href="#" class="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:md:text-cyan-400 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
       </li>
       <li>
         <a href="#" class="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:md:text-cyan-400 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Frameworks</a>
@@ -70,7 +72,7 @@ function navbar() {
 </div>
 
 </nav>
-<div class="backdrop-blur-sm">
+<div class="">
   <br></br>
   <br></br>
   <br></br>
@@ -88,13 +90,13 @@ function navbar() {
        
      
         <div className='button1'>
-        <a href="/CodeHome">
+        <Link href="/CodeHome">
           <div class="inline-block rounded-xl bg-gradient-to-r from-blue-400 via-fuchsia-500 to-teal-500 p-1/8 pb-[1/8px] text-slate-50 text-xl font-medium transition ">
        
         <button type="button" class=" bg-black rounded-xl px-20 p-[5px] m-1 border-1 outline:none">  Start Coding...</button>
       </div>
 
-</a>
+</Link>
 </div>
 </div>
         </div>
@@ -114,4 +116,4 @@ function navbar() {
 }
 
 
-export default navbar;
+export default NavPage;

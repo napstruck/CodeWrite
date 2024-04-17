@@ -14,10 +14,10 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.13.5",
-    "codemirror": "^5.65.13",
+    "codemirror": "^6.0.1",
     "flowbite": "^1.6.6",
     "react": "^18.2.0",
-    "react-codemirror2": "^7.2.1",
+    "react-codemirror2": "^8.0.0",
     "react-dom": "^18.2.0",
     "react-icon": "^1.0.0",
     "react-icons": "^4.9.0"

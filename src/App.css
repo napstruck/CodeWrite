@@ -9,12 +9,12 @@ html,body,#root{
 }
 .land{
   /* background-image: url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==&auto=format&fit=crop&w=1147&q=80"); */
-background-image: url("https://images.unsplash.com/photo-1616004655123-818cbd4b3143?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+background-image: url(/public/home_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height:100%;
   width:100%;
-background-blend-mode: lighten;
+background-blend-mode: darken;
 padding-bottom: 10rem;
 }
 .Menu{
