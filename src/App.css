@@ -1,145 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Tilt+Prism&display=swap");
 
-
-  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Tilt+Prism&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Tilt+Prism&display=swap');
-html,body,#root{
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Tilt+Prism&display=swap");
+html,
+body,
+#root {
   height: 100%;
-  width:100%;
+  width: 100%;
 }
-.land{
+.land {
   /* background-image: url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==&auto=format&fit=crop&w=1147&q=80"); */
-background-image: url(/public/home_bg.jpg);
+  background-image: url(/src/assets/images/home_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height:100%;
-  width:100%;
-background-blend-mode: darken;
-padding-bottom: 10rem;
+  height: 100%;
+  width: 100%;
+  background-blend-mode: darken;
+  padding-bottom: 10rem;
 }
-.Menu{
+.Menu {
   /* color: white; */
-   
+
   font-weight: 300;
 }
-.head{
+.head {
   color: white;
-  font-family: 'Source Code Pro', monospace;
-/* font-family: 'Tilt Prism', cursive; */
+  font-family: "Source Code Pro", monospace;
+  /* font-family: 'Tilt Prism', cursive; */
   font-weight: 300;
- 
 }
-.Left1{
+.Left1 {
   font-size: 1.5rem;
   display: flex;
- flex-direction: column;
- text-align: center;
- align-items: center;
- margin-top: 7rem;
- font-family: 'Source Code Pro', monospace;
-
-
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 7rem;
+  font-family: "Source Code Pro", monospace;
 }
-.button1{
+.button1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top:5rem;
+  margin-top: 5rem;
 }
 .Buttonin {
   margin: 0 -13rem;
-  width: calc(30% - 2.75rem); 
+  width: calc(30% - 2.75rem);
   border-radius: 6px;
   box-sizing: border-box;
   color: var(--cp-color-1);
-  color:white;
+  color: white;
   display: block;
   z-index: 2;
   overflow: hidden;
   padding: 0.3rem;
   content: "";
-    position: absolute;
-    text-align: center;
-    align-items: center;
-   line-height: 2rem;
-   text-size-adjust:inherit;
-    /* border-image: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b); */
-   border-width: 0.25rem; 
-  
-   border-image:linear-gradient(to right, rgb(228, 228, 26), rgb(202, 117, 187),rgb(103, 75, 169),rgb(16, 9, 194))1;
-   border-style: solid;
-    animation:0.75s linear infinite;
-    
-  }
-a:hover, a:focus {
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  line-height: 2rem;
+  text-size-adjust: inherit;
+  /* border-image: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b); */
+  border-width: 0.25rem;
+
+  border-image: linear-gradient(
+      to right,
+      rgb(228, 228, 26),
+      rgb(202, 117, 187),
+      rgb(103, 75, 169),
+      rgb(16, 9, 194)
+    )
+    1;
+  border-style: solid;
+  animation: 0.75s linear infinite;
+}
+a:hover,
+a:focus {
   cursor: pointer;
-
 }
-button:active{
-  transform:translate(0,0.3rem);
+button:active {
+  transform: translate(0, 0.3rem);
 }
 
-.personal{
-  color:white;
+.personal {
+  color: white;
   font-size: 1.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.Codepage{
+.Codepage {
   background-color: white;
 }
-.CodeMirror{
-  height:24rem !important;
-  color:#fff;
+.CodeMirror {
+  height: 24rem !important;
+  color: #fff;
 }
-.CodeMirror-gutters{
-  background:#1d1e22  !important;
+.CodeMirror-gutters {
+  background: #1d1e22 !important;
 }
-.CodeMirror-scroll{
-  background:#1d1e22!important;
-
+.CodeMirror-scroll {
+  background: #1d1e22 !important;
 }
-.head2{
+.head2 {
   color: white;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
 
   font-weight: 100;
-  font-size:2rem;
-  padding-left:1rem ;
- 
+  font-size: 2rem;
+  padding-left: 1rem;
 }
 
-.Editpage{
+.Editpage {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
   padding: 1rem;
-
 }
-.button3{
+.button3 {
   display: flex;
   justify-content: flex-end;
   margin-left: 57rem;
 }
-.imagehalf1{
+.imagehalf1 {
   bottom: auto;
   top: 290px;
   width: 650px;
   right: -125px;
-  max-height:100px;
-  max-width:100px;
+  max-height: 100px;
+  max-width: 100px;
   overflow: hidden;
 }
-#Framework{
+#Framework {
   /* background-image: url("https://images.unsplash.com/photo-1525453719223-4e781eb83a4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"); */
-  background: #2b5876;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #000000, #29373c);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #000000, #29373c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background: #2b5876; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #000000,
+    #29373c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #000000,
+    #29373c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   background-repeat: no-repeat;
   background-size: cover;
-
 }
