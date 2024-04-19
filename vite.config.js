@@ -7,9 +7,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        manualChunks: {
-          // Specify manual chunks here
-        },
+        manualChunks: {},
       },
     },
   },

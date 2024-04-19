@@ -164,13 +164,12 @@ function NavPage() {
             </div>
 
             <div className="button1">
-              <Link href="/CodeHome">
-                <div class="inline-block rounded-xl bg-gradient-to-r from-blue-400 via-fuchsia-500 to-teal-500 p-1/8 pb-[1/8px] text-slate-50 text-xl font-medium transition ">
+              <Link to="/CodeHome">
+                <div className="inline-block rounded-xl bg-gradient-to-r from-blue-400 via-fuchsia-500 to-teal-500 p-1/8 pb-[1/8px] text-slate-50 text-xl font-medium transition">
                   <button
                     type="button"
-                    class=" bg-black rounded-xl px-20 p-[5px] m-1 border-1 outline:none"
+                    className="bg-black rounded-xl px-20 p-[5px] m-1 border-1 outline:none"
                   >
-                    {" "}
                     Start Coding...
                   </button>
                 </div>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import CodeMirror from 'react-codemirror2';
+import CodeMirror from "react-codemirror2";
 import { Box, styled } from "@mui/material";
 import CloseFullscreenIcon from "@mui/icons-material/CloseFullscreen";
 import { Controlled as ControlledEditor } from "react-codemirror2";
@@ -43,7 +43,7 @@ const Editor = ({ headingLang, value, onChange, icon, color, mime }) => {
       <Heading>
         <SubHead>
           <Box
-            component='span'
+            component="span"
             style={{
               background: color,
               height: 20,
@@ -54,14 +54,15 @@ const Editor = ({ headingLang, value, onChange, icon, color, mime }) => {
               borderRadius: 5,
               paddingBottom: 5,
               color: "#000",
-            }}>
+            }}
+          >
             {icon}
           </Box>
           {headingLang}
         </SubHead>
         {/* used as a component here although its a icon hence self closing tag */}
         <CloseFullscreenIcon
-          fontSize='small'
+          fontSize="small"
           style={{ alignSelf: "center", cursor: "pointer" }}
           onClick={() => setOpen((prevState) => !prevState)}
         />
@@ -70,7 +71,7 @@ const Editor = ({ headingLang, value, onChange, icon, color, mime }) => {
       <ControlledEditor
         onBeforeChange={handleChange}
         value={value}
-        className='controlled-editor'
+        className="controlled-editor"
         options={{
           mode: mime,
           lineNumbers: true,
